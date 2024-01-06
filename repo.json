@@ -1,0 +1,30 @@
+{
+    "spec":"1.0",
+    "repotype":"purekfdextended",
+    "name": "todo",
+    "description": "todo",
+    "icon": "icons/icon.png",
+    "categorized":true,
+    "featured": [
+        {
+        "name": "Hide dock",
+        "bundleid": "com.thommomc.hidedock",
+        "banner": "icons/icon.png"
+        }   
+    ],
+    "packages": [
+        {
+            "name": "Hide dock",
+            "bundleid": "com.thommomc.hidedock",
+            "author": "ThommoMC",
+            "description": "Hides the dock",
+            "long_description": "Hides the dock on the iOS homescreen",
+            "version": "1.0",
+            "icon": "icons/icon.png",
+            "banner":"icons/icon.png",
+            "path": "pkgs/com.thommomc.hidedock.purekfd",
+            "screenshots":[],
+            "category": "Theming"
+        }
+    ]
+}
