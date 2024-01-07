@@ -1,28 +1,28 @@
 {
     "spec":"1.0",
     "repotype":"purekfdextended",
-    "name": "todo",
-    "description": "todo",
+    "name": "Thommo's Repo",
+    "description": "Random tweaks and stuff",
     "icon": "icons/icon.png",
     "categorized":true,
     "featured": [
         {
         "name": "Hide dock",
-        "bundleid": "com.thommomc.hidedock",
-        "banner": "icons/icon.png"
+        "bundleid": "com.thommomc.transparentdock",
+        "banner": "icons/transparentdockbanner.png"
         }   
     ],
     "packages": [
         {
-            "name": "Hide dock",
-            "bundleid": "com.thommomc.hidedock",
+            "name": "Transparent dock",
+            "bundleid": "com.thommomc.transparentdock",
             "author": "ThommoMC",
-            "description": "Hides the dock",
-            "long_description": "Hides the dock on the iOS homescreen",
+            "description": "Makes the dock transparent",
+            "long_description": "Makes the dock transparent on the iOS homescreen. The tweak may revert randomly and this isnt controllable as it is how kfd works!",
             "version": "1.0",
-            "icon": "icons/icon.png",
-            "banner":"icons/icon.png",
-            "path": "pkgs/com.thommomc.hidedock.purekfd",
+            "icon": "icons/transparentdockicon.png",
+            "banner":"icons/transparentdockbanner.png",
+            "path": "pkgs/com.thommomc.transparentdock.purekfd",
             "screenshots":[],
             "category": "Theming"
         }
